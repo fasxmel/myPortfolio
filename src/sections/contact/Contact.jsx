@@ -7,7 +7,7 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+TODO: //you must chek you env variables are correct
     emailjs
       .sendForm(
         import.meta.env.VITE_REACT_SERVICE_ID, 
